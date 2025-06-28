@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /login
+Allow: /signup
+Allow: /dashboard
+Allow: /bmi
+Allow: /bp
+Allow: /calorie
+Allow: /menstrual
+Allow: /articles
+
+# Sitemap location
+Sitemap: https://medikarx.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1 
